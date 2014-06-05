@@ -16,3 +16,13 @@ In this project, we use the makefile to compile the c++ project and run.
 * make
 * make clean
 * ./main
+
+*"return" will not print anything on the screen.
+
+##project 3:
+Go through each topic in the list below:
+loops, conditions, classes, inheritance, data structures (linked lists, etc)
+
+* "\n" will start a new line.
+* Variable must be initialized before use.
+
