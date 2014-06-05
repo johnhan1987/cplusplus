@@ -59,6 +59,10 @@ int main()
 		cout<<c<<", ";
 	}
 	cout << endl;
-
+	//goto statement
+	cout << "\n goto statement:"<< endl;
+	for (g=10; g>0; n--){
+		
+	}
 	return 0;
 }
