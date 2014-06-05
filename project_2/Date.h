@@ -18,9 +18,13 @@ public:
  
     void SetDate(int nMonth, int nDay, int nYear);
  
-    int GetMonth() { return m_nMonth; cout<<m_nMonth<<endl;}
-    int GetDay()  { return m_nDay; cout<<m_nDay<<endl;}
-    int GetYear() { return m_nYear; cout<<m_nYear<<endl;}
+    //int GetMonth() { return m_nMonth; cout<<m_nMonth<<endl;}
+    //int GetDay()  { return m_nDay; cout<<m_nDay<<endl;}
+    //int GetYear() { return m_nYear; cout<<m_nYear<<endl;}
+
+    int GetMonth() { return m_nMonth; cout<<"hello world!"<<endl;}
+    int GetDay()  { return m_nDay;}
+    int GetYear() { return m_nYear;}
 };
  
 #endif
