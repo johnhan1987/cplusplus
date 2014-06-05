@@ -25,4 +25,6 @@ loops, conditions, classes, inheritance, data structures (linked lists, etc)
 
 * "\n" will start a new line.
 * Variable must be initialized before use.
+* "endl" will make sure the cout ends with "\n".
+* "break" only leaves a loop, even if the condition for its end is not fulfilled. It can be used to end an infinite loop, or to force it to end before its natural end
 
