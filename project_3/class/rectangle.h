@@ -2,6 +2,7 @@
 #define RECTANGLE
 
 class rectangle{
+protected:
 	int width, height;
 public:
 	rectangle(int w, int h);

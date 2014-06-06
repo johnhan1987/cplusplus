@@ -1,6 +1,7 @@
 #include <iostream>
 #include "rectangle.h"
 #include "dummy.h"
+#include "triangle.h"
 using namespace std;
 int dummy::n = 0;
 int main(){
@@ -20,5 +21,10 @@ int main(){
 	delete[] c;
 	cout <<"dummy::n is "<< dummy::n<< endl;
 	cout <<"a.n is " << a.n << endl;	
+
+	//inheritance
+	cout<<"inheritance from polygon to triangle:"<<endl;
+	triangle s(4, 5);
+	cout<<"The triangle area is: "<<s.area()<<endl;	
 	return 0;
 }

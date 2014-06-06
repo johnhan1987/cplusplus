@@ -32,3 +32,5 @@ loops, conditions, classes, inheritance, data structures (linked lists, etc)
 int dummy::n = 0;
 * array definition is: type * arrayname = new type[n];
 To delete array is to do: delete[] arrayname;
+* Inherit constructor inside the inherited class: 
+subclass(int a, int b):superclass(int a, int b){}
