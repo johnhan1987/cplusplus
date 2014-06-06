@@ -28,3 +28,7 @@ loops, conditions, classes, inheritance, data structures (linked lists, etc)
 * "endl" will make sure the cout ends with "\n".
 * "break" only leaves a loop, even if the condition for its end is not fulfilled. It can be used to end an infinite loop, or to force it to end before its natural end
 * When calling for a void function which is defined in a class, we should keep the parenthesis. e.g. r.area() 
+* static member need to be inialized outside the class. For example:
+int dummy::n = 0;
+* array definition is: type * arrayname = new type[n];
+To delete array is to do: delete[] arrayname;
