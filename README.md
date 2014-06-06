@@ -27,4 +27,4 @@ loops, conditions, classes, inheritance, data structures (linked lists, etc)
 * Variable must be initialized before use.
 * "endl" will make sure the cout ends with "\n".
 * "break" only leaves a loop, even if the condition for its end is not fulfilled. It can be used to end an infinite loop, or to force it to end before its natural end
-
+* When calling for a void function which is defined in a class, we should keep the parenthesis. e.g. r.area() 

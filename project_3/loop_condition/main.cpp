@@ -2,6 +2,12 @@
 #include <string>
 using namespace std;
 
+
+struct human {
+		string name;
+		int age;	
+	};
+
 int main()
 {
 	//for loops
@@ -59,10 +65,16 @@ int main()
 		cout<<c<<", ";
 	}
 	cout << endl;
-	//goto statement
-	cout << "\n goto statement:"<< endl;
-	for (g=10; g>0; n--){
-		
-	}
+
+	//structure data type
+	cout<< "Create structure data type:" << endl;
+
+	human john;
+	cout<<"Enter name:"<<endl;
+	cin>>john.name;
+	cout<<"Enter age:"<<endl;
+	cin>>john.age;
+	cout<<"The information is: "<<john.name <<", "<<john.age<<endl;
+
 	return 0;
 }
