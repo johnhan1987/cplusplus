@@ -26,5 +26,19 @@ int main(){
 	cout<<"inheritance from polygon to triangle:"<<endl;
 	triangle s(4, 5);
 	cout<<"The triangle area is: "<<s.area()<<endl;	
+
+	//Polymorphism
+	////pointers to base class
+	cout<<"Polymorphism: pointers to base class"<<endl;
+	triangle trgl(1,1);
+	polygon * ppoly1 = &trgl;
+	ppoly1->set_values(4,5);
+	cout<< trgl.area() <<endl;
+	////virtual members
+	cout<<"Polymorphism: virtual members"<<endl;
+
+	////abstract base classes
+	cout<<"Polymorphism: abstract base classes"<<endl;
+
 	return 0;
 }
