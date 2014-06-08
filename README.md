@@ -34,3 +34,7 @@ int dummy::n = 0;
 To delete array is to do: delete[] arrayname;
 * Inherit constructor inside the inherited class: 
 subclass(int a, int b):superclass(int a, int b){}
+
+##project 4:
+Coding practice:
+1. 
