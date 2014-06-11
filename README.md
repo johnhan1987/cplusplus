@@ -38,3 +38,7 @@ subclass(int a, int b):superclass(int a, int b){}
 ##project 4:
 Coding practice:
 1. 
+
+##project 5:
+Random practice:
+1. Find prime number from the given range.
